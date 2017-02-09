@@ -1,0 +1,30 @@
+{
+  "name": "rollbot",
+  "description": "D20 dice roller irc bot using Random.org",
+  "tags": [
+    "random",
+    "dice",
+    "roll",
+    "rpg"
+  ],
+  "version": "0.1.0",
+  "author": "Jordan Sinn <admin@jordansinn.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordansinn1994/rollbot.js"
+  },
+  "bugs": {
+    "mail": "admin@jordansinn.com",
+    "url": "https://github.com/jordansinn1994/rollbot.js/issues"
+  },
+  "main": "rollbot.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "irc":">=0.5.2",
+    "rand20":">=0.1.0",
+    "command-line-args":">=4.0.1"
+  }
+}
