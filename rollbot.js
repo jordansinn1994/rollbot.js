@@ -30,6 +30,9 @@ bot.addListener('message', function(from, to, message) {
         if (message.match(/!(flip)/)) {
             bot.say(to,rand20.flip());
         }
+        if (message.match(/!(lenny)/)) {
+            bot.say(to,from+": ( ͡° ͜ʖ ͡°)");
+        }
     }
 });
 bot.addListener('pm', function(nick, message) {
